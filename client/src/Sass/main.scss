@@ -1,0 +1,23 @@
+// import needed scss here
+
+@import "./abstracts/variables";
+
+@import "./components/navbar";
+@import "./components/buttons";
+@import "./components/form-fields";
+@import "./components/item-card";
+@import "./components/dashboard";
+@import "./components/purchase-tab";
+
+@import "./pages/landing-page";
+@import "./pages/orders";
+@import "./pages/admin";
+@import "./pages/shop";
+@import "./pages/payment-result";
+@import "./pages/purchases";
+
+@import "./pages/login";
+
+@import "./layouts/responsive";
+
+@import "./base/typography"

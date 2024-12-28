@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "640f0d3f1b3d9c9dbf8c4a9f"
+  },
+  "title": "Jaket Kulit Pria",
+  "description": "Jaket kulit pria, tahan lama, cocok untuk cuaca dingin.",
+  "price": 350000,
+  "imageId": "jaket-kulit-pria.jpg"
+},
+{
+  "_id": {
+    "$oid": "640f0d3f1b3d9c9dbf8c4aa0"
+  },
+  "title": "Laptop Gaming XYZ",
+  "description": "Laptop gaming dengan spesifikasi tinggi, cocok untuk bermain game berat.",
+  "price": 12000000,
+  "imageId": "laptop-gaming.jpg"
+},
+{
+  "_id": {
+    "$oid": "640f0d3f1b3d9c9dbf8c4aa1"
+  },
+  "title": "Tas Ransel Multifungsi",
+  "description": "Tas ransel multifungsi untuk traveling, kerja, dan sehari-hari.",
+  "price": 120,
+  "imageId": "tas-ransel.jpeg"
+},
+{
+  "_id": {
+    "$oid": "640f0d3f1b3d9c9dbf8c4aa2"
+  },
+  "title": "Topi Baseball Hitam",
+  "description": "Topi baseball hitam, cocok untuk olahraga atau jalan-jalan.",
+  "price": 25000,
+  "imageId": "topi-hitam.jpeg"
+},
+{
+  "_id": {
+    "$oid": "640f0d3f1b3d9c9dbf8c4aa3"
+  },
+  "title": "Celana Jeans Slim Fit",
+  "description": "Celana jeans slim fit untuk gaya kasual.",
+  "price": 60000,
+  "imageId": "celana-jeans-slim-fit.jpg"
+},
+{
+  "_id": {
+    "$oid": "640f0d3f1b3d9c9dbf8c4aa4"
+  },
+  "title": "Baju Kaos Polos",
+  "description": "Baju kaos polos dengan berbagai warna, nyaman dipakai sehari-hari.",
+  "price": 20000,
+  "imageId": "baju-kaos.jpg"
+}]

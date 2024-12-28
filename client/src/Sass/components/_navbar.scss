@@ -1,0 +1,34 @@
+#main-nav {
+  padding: 10px 0;
+
+  &.primary-variant {
+    background-color: $primary-color;
+    color: $white;
+
+    a {
+      color: $white;
+    }
+  }
+
+  &.white-variant {
+    background-color: $white;
+    color: $black;
+
+    a {
+      color: $black;
+    }
+  }
+
+  .container {
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        font-size: x-large;
+        text-decoration: none;
+      }
+    }
+  }
+}

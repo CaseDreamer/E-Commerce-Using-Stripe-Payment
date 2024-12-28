@@ -1,0 +1,87 @@
+#dashboard {
+  padding: 50px 0;
+  background-color: $white1;
+  box-shadow: $shadow1;
+
+  .container {
+    .wrapper {
+      &>*:not(:first-child) {
+        margin-top: 15px;
+      }
+
+      .d-controls {
+        .d-box {
+          color: $white;
+          font-weight: bold;
+          transition: 0.3s cubic-bezier(0.215, 0.610, 0.355, 1);
+
+          &:not(:first-child) {
+            margin-top: 5px;
+          }
+
+          cursor: pointer;
+          background-color: $primary-color;
+          padding: 10px;
+          border-radius: 3px;
+        }
+
+        .d-box-blue {
+          background-color: $primary-color;
+
+          &:hover {
+            color: $primary-color;
+            background-color: $white;
+          }
+        }
+
+        .d-blox-orange {
+          background-color: $primary-warning;
+
+          &:hover {
+            color: $primary-warning;
+            background-color: $white;
+          }
+        }
+
+        .d-box-red {
+          background-color: $primary-danger;
+
+          &:hover {
+            color: $primary-danger;
+            background-color: $white;
+          }
+        }
+
+        .d-box-green {
+          background-color: $primary-success;
+
+          &:hover {
+            color: $primary-success;
+            background-color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #dashboard {
+    .container {
+      .wrapper {
+        .d-controls {
+          display: flex;
+          align-items: center;
+
+          .d-box {
+            margin-right: 5px;
+
+            &:not(:first-child) {
+              margin-top: unset;
+            }
+          }
+        }
+      }
+    }
+  }
+}
